@@ -1,3 +1,32 @@
-h1 {
-    color: red;
+:root {
+    --text: #2ec4b6
+}
+
+/* Universal Selectors */
+
+* {
+    background-color: black;
+    color: var(--text);
+}
+
+/* Elemental Selectors */
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    flex-wrap: wrap;
+}
+
+/* Class Selectors */
+
+.card-header {
+    border: gray;
+    border-style: solid;
+    border-radius: 5px;
 }
