@@ -20,7 +20,12 @@ main {
 }
 
 section {
+    display: flex;
     flex-wrap: wrap;
+    border-color: gray;
+    border-style: dashed;
+    justify-content: space-evenly;
+    
 }
 
 /* Class Selectors */
@@ -29,4 +34,11 @@ section {
     border: gray;
     border-style: solid;
     border-radius: 5px;
+    position: relative;
+    margin-top: -20px;
+    width: 90%;
+}
+
+.align-center {
+    align-items: center;
 }
